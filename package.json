@@ -1,0 +1,22 @@
+{
+  "name": "royal-purnama-revamp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/build.mjs --serve",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs --preview",
+    "test": "node --test tests/content.test.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.11"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
